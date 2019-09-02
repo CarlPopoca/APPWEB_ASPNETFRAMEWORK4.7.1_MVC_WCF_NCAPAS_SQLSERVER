@@ -1,0 +1,41 @@
+﻿@model WEBASPNETMVCWCFSECIDEN.Models.UsuariosViewModel
+
+@{
+    ViewBag.Title = "Detalles";
+}
+
+<h2>Detalles</h2>
+
+<div>
+    <h4>Usuarios</h4>
+    <hr />
+    <dl class="dl-horizontal">
+    </dl>
+</div>
+
+<dl class="dl-horizontal">
+    <dt>
+        @Html.DisplayNameFor(model => model.UsuId)
+    </dt>
+
+    <dd>
+        @Html.DisplayFor(model => model.UsuId)
+    </dd>
+
+    <dt>
+        @Html.DisplayNameFor(model => model.UsuNombre)
+    </dt>
+    <dd>
+        @Html.DisplayFor(model => model.UsuNombre)
+    </dd>
+    <dt>
+        @Html.DisplayNameFor(model => model.UsuPassword)
+    </dt>
+    <dd>
+        @Html.DisplayFor(model => model.UsuPassword)
+    </dd>
+</dl>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.UsuId }) |
+    @Html.ActionLink("Regresar", "Index")
+</p>

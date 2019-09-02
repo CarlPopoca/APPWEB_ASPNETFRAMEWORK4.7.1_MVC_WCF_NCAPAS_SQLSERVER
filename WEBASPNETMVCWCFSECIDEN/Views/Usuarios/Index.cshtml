@@ -1,0 +1,34 @@
+﻿@model IEnumerable<WEBASPNETMVCWCFSECIDEN.Models.UsuariosViewModel>
+
+@{
+    ViewBag.Title = "Inicio";
+}
+
+<h2>Usuarios</h2>
+
+<p>
+    @Html.ActionLink("Crear nuevo", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>Usuario id</th>
+        <th>Nombre</th>
+        <th>Password</th>
+        <th>Acciones</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td> @item.UsuId</td>
+            <td> @item.UsuNombre</td>
+            <td> @item.UsuPassword</td>
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { id = item.UsuId }) |
+                @Html.ActionLink("Detalles", "Details", new { id = item.UsuId }) |
+                @Html.ActionLink("Eliminar", "Delete", new { id = item.UsuId })
+            </td>
+        </tr>
+    }
+
+</table>

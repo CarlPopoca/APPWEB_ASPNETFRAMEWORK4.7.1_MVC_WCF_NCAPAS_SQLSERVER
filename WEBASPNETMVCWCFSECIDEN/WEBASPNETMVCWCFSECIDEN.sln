@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEBASPNETMVCWCFSECIDEN", "WEBASPNETMVCWCFSECIDEN.csproj", "{681BB4AA-E289-4421-9C68-4EC9BED6B333}"
+	ProjectSection(ProjectDependencies) = postProject
+		{16716AF9-E10C-4012-8C94-3489BC2E6186} = {16716AF9-E10C-4012-8C94-3489BC2E6186}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPruebaData", "..\WebPruebaData\WebPruebaData.csproj", "{EB1FA9E0-DCAE-4A68-9EFC-467E159CE0FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPruebaEntities", "..\WebPruebaEntities\WebPruebaEntities.csproj", "{591ED047-4D71-4689-89BC-613510D8B361}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPruebaBussinesRules", "..\WebPruebaBussinesRules\WebPruebaBussinesRules.csproj", "{69968C00-773B-4DEA-8C69-DDCFE3F64625}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPruebaWCF", "..\WebPruebaWCF\WebPruebaWCF.csproj", "{16716AF9-E10C-4012-8C94-3489BC2E6186}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{681BB4AA-E289-4421-9C68-4EC9BED6B333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{681BB4AA-E289-4421-9C68-4EC9BED6B333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{681BB4AA-E289-4421-9C68-4EC9BED6B333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{681BB4AA-E289-4421-9C68-4EC9BED6B333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB1FA9E0-DCAE-4A68-9EFC-467E159CE0FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB1FA9E0-DCAE-4A68-9EFC-467E159CE0FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB1FA9E0-DCAE-4A68-9EFC-467E159CE0FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB1FA9E0-DCAE-4A68-9EFC-467E159CE0FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{591ED047-4D71-4689-89BC-613510D8B361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{591ED047-4D71-4689-89BC-613510D8B361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{591ED047-4D71-4689-89BC-613510D8B361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{591ED047-4D71-4689-89BC-613510D8B361}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69968C00-773B-4DEA-8C69-DDCFE3F64625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69968C00-773B-4DEA-8C69-DDCFE3F64625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69968C00-773B-4DEA-8C69-DDCFE3F64625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69968C00-773B-4DEA-8C69-DDCFE3F64625}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16716AF9-E10C-4012-8C94-3489BC2E6186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16716AF9-E10C-4012-8C94-3489BC2E6186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16716AF9-E10C-4012-8C94-3489BC2E6186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16716AF9-E10C-4012-8C94-3489BC2E6186}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4AD5D6B-A70A-4E60-8731-AD411ABB85E7}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,43 @@
+﻿@model WEBASPNETMVCWCFSECIDEN.Models.UsuariosViewModel
+
+@{
+    ViewBag.Title = "Eliminar";
+}
+
+<h2>Eliminar</h2>
+<h4>Usuarios</h4>
+<h3>Esta seguro de que quiere eliminarlo?</h3>
+<div>
+
+    <hr />
+    <dl class="dl-horizontal">
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(model => model.UsuId)
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.UsuId)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.UsuId)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.UsuNombre)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.UsuNombre)
+            </dd>
+        </dl>
+
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Eliminar" class="btn btn-default" /> |
+            @Html.ActionLink("Regresar", "Index")
+        </div>
+    }
+</div>

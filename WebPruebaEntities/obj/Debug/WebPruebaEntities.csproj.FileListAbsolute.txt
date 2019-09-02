@@ -1,0 +1,16 @@
+C:\Proyectos\VisualStudioNet\WebPrueba\WebPruebaEntities\bin\Debug\WebPruebaEntities.dll
+C:\Proyectos\VisualStudioNet\WebPrueba\WebPruebaEntities\bin\Debug\WebPruebaEntities.pdb
+C:\Proyectos\VisualStudioNet\WebPrueba\WebPruebaEntities\obj\Debug\WebPruebaEntities.csproj.CoreCompileInputs.cache
+C:\Proyectos\VisualStudioNet\WebPrueba\WebPruebaEntities\obj\Debug\WebPruebaEntities.dll
+C:\Proyectos\VisualStudioNet\WebPrueba\WebPruebaEntities\obj\Debug\WebPruebaEntities.pdb
+C:\PROYECTOS\VisualStudioNET\APPWEBMVCCORE_2.2_WCF_CAPAS\WebPruebaEntities\bin\Debug\WebPruebaEntities.dll
+C:\PROYECTOS\VisualStudioNET\APPWEBMVCCORE_2.2_WCF_CAPAS\WebPruebaEntities\bin\Debug\WebPruebaEntities.pdb
+C:\PROYECTOS\VisualStudioNET\APPWEBMVCCORE_2.2_WCF_CAPAS\WebPruebaEntities\obj\Debug\WebPruebaEntities.csprojAssemblyReference.cache
+C:\PROYECTOS\VisualStudioNET\APPWEBMVCCORE_2.2_WCF_CAPAS\WebPruebaEntities\obj\Debug\WebPruebaEntities.csproj.CoreCompileInputs.cache
+C:\PROYECTOS\VisualStudioNET\APPWEBMVCCORE_2.2_WCF_CAPAS\WebPruebaEntities\obj\Debug\WebPruebaEntities.dll
+C:\PROYECTOS\VisualStudioNET\APPWEBMVCCORE_2.2_WCF_CAPAS\WebPruebaEntities\obj\Debug\WebPruebaEntities.pdb
+C:\PROYECTOS\VisualStudioNET\APPWEBMVCASPNET_WCF_CAPAS_SeguridadIdentity\WebPruebaEntities\bin\Debug\WebPruebaEntities.dll
+C:\PROYECTOS\VisualStudioNET\APPWEBMVCASPNET_WCF_CAPAS_SeguridadIdentity\WebPruebaEntities\bin\Debug\WebPruebaEntities.pdb
+C:\PROYECTOS\VisualStudioNET\APPWEBMVCASPNET_WCF_CAPAS_SeguridadIdentity\WebPruebaEntities\obj\Debug\WebPruebaEntities.csproj.CoreCompileInputs.cache
+C:\PROYECTOS\VisualStudioNET\APPWEBMVCASPNET_WCF_CAPAS_SeguridadIdentity\WebPruebaEntities\obj\Debug\WebPruebaEntities.dll
+C:\PROYECTOS\VisualStudioNET\APPWEBMVCASPNET_WCF_CAPAS_SeguridadIdentity\WebPruebaEntities\obj\Debug\WebPruebaEntities.pdb
